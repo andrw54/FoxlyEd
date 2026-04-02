@@ -4,7 +4,8 @@ body {
     background-color: #fcdd8e;
     margin: 0;
 }
-.cabeza{
+
+.cabeza {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,33 +13,43 @@ body {
     margin: 0;
     padding: 5px 30px;
 }
-.caja img{
+
+.caja img {
     display: flex;
     border-radius: 50px;
 }
-.navbar{
+
+.navbar {
     padding: 10, 0px;
     display: flex;
     justify-content: right;
 }
-.links{
+
+.links {
     list-style: none;
     display: flex;
+    gap: 20px;
 }
-.links li a{
+
+.links li a {
     background-color: aliceblue;
     text-decoration: none;
     color: black;
     border: solid;
     border-radius: 20px;
     padding: 7px 20px;
+
 }
-ul{
+
+ul {
     padding-inline-start: 0;
 }
-main{
+
+main {
+    text-align: center;
     flex: 1;
 }
+
 footer {
     background-color: #be741c;
     color: white;

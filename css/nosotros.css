@@ -44,9 +44,13 @@ body {
 ul {
     padding-inline-start: 0;
 }
-main{
+
+main {
+    text-align: center;
     flex: 1;
 }
+
+
 footer {
     background-color: #be741c;
     color: white;

@@ -58,9 +58,25 @@ h1 {
     font-size: 24px;
 }
 
+.bobeda{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
 .bobeda h3 {
     font-size: 28px;
 }
+
+.tarjeta {
+    display: flex;
+    width: 180px;
+    border: 1px solid ;
+    height: 280px;
+    text-align: center;
+
+}
+
 
 footer {
     background-color: #be741c;
