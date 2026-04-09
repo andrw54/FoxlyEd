@@ -1,3 +1,19 @@
+
+section {
+  display: flex;           /* pone todo en fila */
+  flex-wrap: wrap;         /* permite que bajen si no caben */
+  justify-content: center; /* centra los elementos */
+  gap: 20px;               /* espacio entre ellos */
+}
+
+
+
+section div {
+  width: 220px;            /* tamaño de cada bloque */
+  text-align: center;
+}
+
+
 body {
     display: flex;
     flex-direction: column;
