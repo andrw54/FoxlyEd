@@ -5,8 +5,24 @@ section {
   justify-content: center; /* centra los elementos */
   gap: 20px;               /* espacio entre ellos */
 }
-
-
+#name{
+   font-family: 'Courier New', Courier, monospace;
+}
+#namee{
+   font-family: 'Courier New', Courier, monospace;
+}
+#nameee{
+   font-family: 'Courier New', Courier, monospace;
+}
+#nameeee{
+   font-family: 'Courier New', Courier, monospace;
+}
+.correo{
+ word-wrap: break-word;
+}
+h1 {
+    text-align: center;
+}
 
 section div {
   width: 220px;            /* tamaño de cada bloque */
