@@ -1,112 +1,122 @@
 body {
-    display: flex;
-    flex-direction: column;
-    background-color: #fcdd8e;
-    margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #fcdd8e;
+  font-family: 'Segoe UI', sans-serif;
 }
 
-.cabeza {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #be741c;
-    margin: 0;
-    padding: 5px 30px;
+.header-bg {
+  background: linear-gradient(90deg, #be741c, #e09130);
+  border-bottom: 3px solid #000;
+  padding-top: 20px;
 }
 
-.caja img {
-    display: flex;
-    border-radius: 50px;
+.logo img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
 }
 
-.navbar {
-    padding: 10, 0px;
-    display: flex;
-    justify-content: right;
+navbar {
+  padding: 10, 0px;
+  display: flex;
+  justify-content: right;
 }
 
 .links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
 
 .links li a {
-    background-color: aliceblue;
-    text-decoration: none;
-    color: black;
-    border: solid;
-    border-radius: 20px;
-    padding: 7px 20px;
+  background-color: #f4e1b6;
+  text-decoration: none;
+  color: black;
+  border: solid;
+  border-radius: 20px;
+  padding: 7px 20px;
 
-}
 
-ul {
-    padding-inline-start: 0;
 }
 
 main {
-    text-align: center;
-    flex: 1;
+  flex: 1;
 }
 
-h1 {
-    font-size: 38px;
+.titulo {
+  font-weight: 800;
+  font-style: italic;
 }
 
-.parra {
-    font-size: 24px;
+.subtitulo {
+  font-size: 0.9rem;
 }
 
-.bobeda{
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
+.flip-card {
+  width: 100%;
+  height: 380px;
+  perspective: 1000px;
 }
 
-.bobeda h3 {
-    font-size: 28px;
+.flip-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 0.7s;
+  transform-style: preserve-3d;
 }
 
-.tarjeta {
-    display: flex;
-    width: 180px;
-    border: 1px solid ;
-    height: 280px;
-    text-align: center;
-
+.icon{
+  font-size: 30px;
+  padding-top: 80%;
+}
+h5{
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
 }
 
+.flip-card:hover .flip-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-front,
+.flip-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flip-front {
+  background-color: #f8e1ac;
+}
+
+.flip-back {
+  background-color: #997726;
+  color: white;
+  transform: rotateY(180deg);
+  padding: 15px;
+}
+
+@media (max-width: 768px) {
+  .flip-card {
+    height: 220px;
+  }
+}
 
 footer {
-    background-color: #be741c;
-    color: white;
-}
-
-@media (min-width: 481px) {
-    h1 {
-        font-size: 48px;
-    }
-
-    .parra {
-        font-size: 28px;
-    }
-
-    .bobeda {
-        font-size: 32px;
-    }
-}
-
-@media (min-width: 769px) {
-    h1 {
-        font-size: 65px;
-    }
-
-    .parra {
-        font-size: 35px;
-    }
-
-    .bobeda {
-        font-size: 42px;
-    }
+  background: linear-gradient(90deg, #be741c, #e09130);
+  border-top: 3px solid #000;
+  padding-bottom: 20px;
+  color: white;
 }
