@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 
 section {
   display: flex;           /* pone todo en fila */
@@ -30,28 +32,35 @@ section div {
 }
 
 
+
+
+>>>>>>> a8954f57fffc306f00bdad442555aa2f5fb941fc
 body {
     display: flex;
     flex-direction: column;
     background-color: #fcdd8e;
-    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
 }
 
-.cabeza {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #be741c;
-    margin: 0;
-    padding: 5px 30px;
+.header-bg {
+    background: linear-gradient(90deg, #be741c, #e09130);
+    border-bottom: 3px solid #000;
+    padding-top: 20px;
 }
 
-.caja img {
-    display: flex;
-    border-radius: 50px;
+.logo img {
+    width: 40px;
 }
 
-.navbar {
+.logo img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+navbar {
     padding: 10, 0px;
     display: flex;
     justify-content: right;
@@ -64,22 +73,60 @@ body {
 }
 
 .links li a {
-    background-color: aliceblue;
+    background-color: #f4e1b6;
     text-decoration: none;
     color: black;
     border: solid;
     border-radius: 20px;
     padding: 7px 20px;
 
+
 }
 
-ul {
-    padding-inline-start: 0;
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
-main{
+
+#Andres {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#Michaell {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#Galvis {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#Miller {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.correo {
+    word-wrap: break-word;
+}
+
+h1 {
+    text-align: center;
+}
+
+section div {
+    width: 220px;
+    text-align: center;
+}
+
+main {
+    text-align: center;
     flex: 1;
 }
+
 footer {
-    background-color: #be741c;
+    background: linear-gradient(90deg, #be741c, #e09130);
+    border-top: 3px solid #000;
+    padding-bottom: 20px;
     color: white;
 }
