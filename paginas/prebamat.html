@@ -1,0 +1,135 @@
+<!--NO TOCAR POR EL MOMENTO-->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foxly - Misión Matemáticas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/preba.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg sticky-top shadow-sm" id="foxlyNav">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="tu-logo-zorro.png" alt="Logo" width="40" class="me-2">
+                <span class="brand-text text-orange">FOXLY</span>
+            </a>
+            <div class="ms-auto">
+                <a href="index.html" class="btn btn-outline-secondary btn-sm">← Volver al Mapa</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+
+        <header class="materia-header p-4 p-md-5 text-white shadow mb-5">
+            <div class="d-flex align-items-center">
+                <div class="icon-circle-lg me-4">∑</div>
+                <div>
+                    <h1 class="fw-bold mb-1">Matemáticas</h1>
+                    <p class="mb-0 opacity-75">Misión: Cálculo Diferencial e Integral</p>
+                </div>
+            </div>
+        </header>
+
+        <div class="row g-4">
+            <section class="col-lg-8">
+                <article class="content-box p-4 shadow-sm">
+                    <h2 class="fw-bold mb-4">El concepto de Límite</h2>
+                    <p>En análisis real y complejo, el concepto de límite es la clave que separa el álgebra del cálculo.
+                        Entender qué sucede cuando una función se acerca a un punto es fundamental para las pruebas
+                        ICFES.</p>
+                        <div class="row g-4">
+                            <div class="col-lg-8">
+                                <div class="card shadow-sm border-0">
+                                    <div class="card-body">
+                                        <h5 class="card-title fw-bold"><i class="bi bi-joystick"></i> Laboratorio Táctil
+                                        </h5>
+                                        <div class="ratio ratio-16x9 mb-3">
+                                            <iframe src="https://www.geogebra.org/material/iframe/id/..."></iframe>
+                                        </div>
+                                        <p class="text-muted">Mueve el punto rojo y observa qué pasa cuando se acerca al
+                                            límite.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="alert alert-warning shadow-sm" role="alert">
+                                    <h6 class="fw-bold"><i class="bi bi-lightbulb"></i> ¡Truco Pro!</h6>
+                                    <p class="small mb-0">Si te da 0/0, ¡no entres en pánico! Es hora de usar la
+                                        factorización.</p>
+                                </div>
+
+                                <div class="accordion" id="stepsMath">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#step1">
+                                                ¿Cómo empiezo?
+                                            </button>
+                                        </h2>
+                                        <div id="step1" class="accordion-collapse collapse" data-bs-parent="#stepsMath">
+                                            <div class="accordion-body">Sustituye el valor directamente...</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="ratio ratio-16x9 my-4 rounded-4 overflow-hidden shadow-sm">
+                        <iframe src="https://www.youtube.com/embed/o2ityeCH2Xo" title="Explicación Límites"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <h4 class="fw-bold mt-4">Puntos Clave:</h4>
+                    <ul class="list-group list-group-flush mb-4">
+                        <li class="list-group-item bg-transparent">✓ Límites laterales (izquierda y derecha).</li>
+                        <li class="list-group-item bg-transparent">✓ Indeterminaciones de tipo 0/0.</li>
+                        <li class="list-group-item bg-transparent">✓ Teorema del sándwich.</li>
+                    </ul>
+                </article>
+            </section>
+
+            <aside class="col-lg-4">
+                <div class="card border-0 shadow-sm card-reto">
+                    <div class="card-body p-4 text-center">
+                        <h5 class="fw-bold mb-3">Reto de Misión 🛡️</h5>
+                        <p class="small text-muted mb-4">Resuelve este problema para avanzar al siguiente punto de
+                            control.</p>
+
+                        <div class="pregunta-box p-3 mb-4">
+                            <p class="fw-bold mb-0">¿Cuál es el límite de f(x)=2x cuando x tiende a 4?</p>
+                        </div>
+
+                        <form>
+                            <div class="mb-3">
+                                <input type="number" class="form-control text-center py-2"
+                                    placeholder="Tu respuesta aquí">
+                            </div>
+                            <button type="submit" class="btn btn-action-game w-100 py-2">Validar Misión</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="alert alert-warning mt-4 border-0 shadow-sm" role="alert">
+                    <small><strong>Pro-tip:</strong> Revisa el video si tienes dudas sobre las
+                        indeterminaciones.</small>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="py-4 mt-5 border-top text-center text-muted">
+        <p class="small">© 2026 Foxly Academy - Misión de Entrenamiento Matemático</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

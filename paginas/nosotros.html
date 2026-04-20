@@ -10,55 +10,52 @@
 </head>
 
 <body>
-  <header class="container-fluid py-3 header-bg">
-    <div class="d-flex justify-content-between align-items-center">
-
-
-      <div class="logo d-flex align-items-center">
-        <a href="../index.html">
-          <img src="../imagenes/Foxly.jpg" alt="logo">
+  <header>
+    <nav class="navbar navbar-expand-lg sticky-top shadow-sm" id="foxlyNav">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="../index.html">
+          <img src="../imagenes/Foxly.jpg" alt="Logo" width="40" class="me-2 logo">
+          <span class="brand-text text-dark">FOXLY</span>
         </a>
-        <h4 class="ms-2 mb-0">Foxly</h4>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-center">
+            <li class="nav-item"><a class="nav-link px-3" href="./Formulario.html">Iniciar Sección</a></li>
+          </ul>
+        </div>
       </div>
-
-
-      <ul class="links">
-        <li>
-          <a href="./Formulario.html">Iniciar</a>
-        </li>
-      </ul>
-
-    </div>
+    </nav>
   </header>
   <main>
     <h1>Desarrolladores</h1>
     <section>
       <div>
         <h3 id="Andres">Andres Bedoya Rios</h3>
-        <img src="../imagenes/Andres.jpg" width="200px" class="img-fluid rounded shadow">
+        <img src="../imagenes/Andres.jpg" width="200px" class="img-fluid rounded shadow boss">
         <p class="correo"> correo: andres.bedoyari@ierepublicadehonduras.edu.co</p>
       </div>
       <div>
         <h3 id="Michaell">Michaell Sanchez Castillo</h3>
-        <img src="../imagenes/Michaell.jpg" width="200px" class="img-fluid rounded shadow">
+        <img src="../imagenes/Michaell.jpg" width="200px" class="img-fluid rounded shadow boss">
         <p class="correo"> correo: michaell.sanchezcas@ierepublicadehonduras.edu.co</p>
       </div>
       <div>
         <h3 id="Galvis">Michell Dahiana Galvis</h3>
-        <img src="../imagenes/Galvis.jpg" width="200px" class="img-fluid rounded shadow">
+        <img src="../imagenes/Galvis.jpg" width="200px" class="img-fluid rounded shadow boss">
         <p class="correo"> correo: michelldahiana.galvisgar@ierepublicadehonduras.edu.co</p>
       </div>
       <div>
         <h3 id="Miller">Miller Andres Moreno</h3>
-        <img src="../imagenes/Miller.jpg" width="200px" class="img-fluid rounded shadow">
+        <img src="../imagenes/Miller.jpg" width="200px" class="img-fluid rounded shadow boss">
         <p class="correo"> correo: millerandres.morenoga@ierepublicadehonduras.edu.co</p>
       </div>
     </section>
   </main>
-  <footer>
-
-    <p>&copy; FoxlyEducation Oficial</p>
-  </footer>
+  <footer class=" py-4 mt-5 border-top text-center">
+        <p class="text-muted mb-0">© 2026 Foxly Academy - Estudiar nunca fue tan pro.</p>
+    </footer>
 </body>
 
 </html>

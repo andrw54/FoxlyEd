@@ -1,49 +1,43 @@
+:root {
+    --foxly-orange: #d28b4d;
+    --foxly-dark: #2c3e50;
+    --bg-light: #f4f7f6;
+    --math-blue: #4a90e2;  
+}
+
 body {
-    display: flex;
-    flex-direction: column;
-    background-color: #fcdd8e;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color:  #fcdd8e;
 }
 
-.header-bg {
-    background: linear-gradient(90deg, #be741c, #e09130);
-    border-bottom: 3px solid #000;
-    padding-top: 20px;
+nav#foxlyNav {
+    background: linear-gradient(90deg, #be741c, #f1a13e);
 }
 
-.logo img {
-    width: 40px;
-}
+.text-orange { color: var(--foxly-orange); font-weight: 700; }
+.text-dark { color: var(--foxly-dark); font-weight: 700; }
 
-.logo img {
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 50%;
-}
-
-navbar {
-    padding: 10, 0px;
-    display: flex;
-    justify-content: right;
+.logo {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
 }
 
 .links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
 
-.links li a {
-    background-color: #f4e1b6;
-    text-decoration: none;
-    color: black;
-    border: solid;
-    border-radius: 20px;
-    padding: 7px 20px;
-
-
+.nav-link  {
+  background-color: #f4e1b6;
+  text-decoration: none;
+  color: black;
+  border: solid;
+  border-radius: 20px;
+  padding: 10px 30px;
 }
 
 section {
@@ -67,6 +61,15 @@ section {
 
 #Miller {
     font-family: 'Courier New', Courier, monospace;
+}
+
+.boss{
+    transition: transform 0.3s ease, shadow 0.3s ease;
+}
+
+.boss:hover{
+transform: translateY(-10px);
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .correo {
