@@ -1,15 +1,21 @@
-body {
-  display: flex;
-  flex-direction: column;
-  background-color: #fcdd8e;
-  font-family: 'Segoe UI', sans-serif;
+:root {
+    --foxly-orange: #d28b4d;
+    --foxly-dark: #2c3e50;
+    --bg-light: #f4f7f6;
+    --math-blue: #4a90e2;  
 }
 
-.navar-bg {
-  background: linear-gradient(90deg, #be741c, #e09130);
-  border-bottom: 3px solid #000;
-  padding-top: 20px;
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color:  #fcdd8e;
 }
+
+nav#foxlyNav {
+    background: linear-gradient(90deg, #be741c, #f1a13e);
+}
+
+.text-orange { color: var(--foxly-orange); font-weight: 700; }
+.text-dark { color: var(--foxly-dark); font-weight: 700; }
 
 .logo {
   width: 50px;
@@ -19,40 +25,35 @@ body {
   border-radius: 50%;
 }
 
-navbar {
-  padding: 10, 0px;
-  display: flex;
-  justify-content: right;
-}
-
-.nav-link {
+.links {
   list-style: none;
   display: flex;
   gap: 20px;
 }
 
-.links li a {
+.nav-link  {
   background-color: #f4e1b6;
   text-decoration: none;
   color: black;
   border: solid;
   border-radius: 20px;
-  padding: 7px 20px;
-
+  padding: 10px 30px;
 }
 
 main {
-    flex: 1;
+  flex: 1;
 }
 
-#formulario{
-    margin: 50px 
+#formulario {
+  margin: 50px
 }
+
 #ini {
-    margin: 50px
+  margin: 50px
 }
-#colorletraform{
-    color: black;
+
+#colorletraform {
+  color: black;
 }
 
 footer {
@@ -60,4 +61,15 @@ footer {
   border-top: 3px solid #000;
   padding-bottom: 20px;
   color: white;
+}
+
+.card {
+  margin: 0 auto;
+  width: 50%;
+  margin-bottom: 70px;
+}
+
+.iniform {
+  text-align: center;
+  margin-block: 35px;
 }

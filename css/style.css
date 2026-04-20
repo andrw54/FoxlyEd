@@ -96,11 +96,11 @@ h5{
 }
 
 .flip-front {
-  background-color: #f8e1ac;
+  background-color: white;
 }
 
 .flip-back {
-  background-color: #ffb300;
+  background-color: black;
   color: white;
   transform: rotateY(180deg);
   padding: 15px;
@@ -118,3 +118,10 @@ footer {
   padding-bottom: 20px;
   color: white;
 }
+
+@media (max-width: 768px) {
+  .imagenesindex {
+    height: 180px;
+  }
+}
+

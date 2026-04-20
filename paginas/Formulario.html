@@ -12,50 +12,54 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg sticky-top navar-bg">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="../index.html"><img src="../imagenes/Foxly.jpg" alt="Logo" width="30" class="logo">
-        FOXLY</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="links navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="./nosotros.html">Nosotros</a>
-          </li>
-        </ul>
+  <header>
+    <nav class="navbar navbar-expand-lg sticky-top shadow-sm" id="foxlyNav">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="../index.html">
+          <img src="../imagenes/Foxly.jpg" alt="Logo" width="40" class="me-2 logo">
+          <span class="brand-text text-dark">FOXLY</span>
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-center">
+            <li class="nav-item"><a class="nav-link px-3" href="./nosotros.html">Nosotros</a></li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-
+    </nav>
+  </header>
 
   <main>
-    <section id="ini">
+    <section id="ini" class="iniform">
       <h2>Iniciar Sección</h2>
     </section>
-    <form id="formulario">
-      <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
-        <input type="email" placeholder="julian123@gmail.com" class="form-control" id="exampleInputEmail1"
-          aria-describedby="emailHelp" required>
+    <div class="card">
+      <div class="card-body">
+        <form id="formulario">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
+            <input type="email" placeholder="julian123@gmail.com" class="form-control" id="exampleInputEmail1"
+              aria-describedby="emailHelp" required>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+            <input type="password" placeholder="12345678" class="form-control" id="exampleInputPassword1" required>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+            <label class="form-check-label" for="exampleCheck1"> ¿Perteces a la Institución educativa republica de
+              honduras?</label>
+          </div>
+          <button type="button" class="btn btn-dark">Entrar</button>
+        </form>
       </div>
-      <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-        <input type="password" placeholder="12345678" class="form-control" id="exampleInputPassword1" required>
-      </div>
-      <div class="mb-3 form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
-        <label class="form-check-label" for="exampleCheck1"> ¿Perteces a la Institución educativa republica de
-          honduras?</label>
-      </div>
-      <button type="button" class="btn btn-dark">Entrar</button>
-    </form>
+    </div>
   </main>
   <footer class=" py-4 mt-5 border-top text-center">
-        <p class="text-muted mb-0">© 2026 Foxly Academy - Estudiar nunca fue tan pro.</p>
-    </footer>
+    <p class="text-muted mb-0">© 2026 Foxly Academy - Estudiar nunca fue tan pro.</p>
+  </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
