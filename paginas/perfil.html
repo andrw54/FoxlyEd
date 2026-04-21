@@ -1,0 +1,153 @@
+><!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/perfil.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-light bg-light px-4">
+  <span class="navbar-brand">🦊</span>
+
+  <div class="ms-auto d-flex gap-3 align-items-center">
+    <a class="nav-link">Misiones</a>
+    <a class="nav-link">Logros</a>
+    <a class="nav-link fw-bold">Mi Perfil</a>
+    <button class="btn btn-danger btn-sm">Cerrar Sesión</button>
+  </div>
+</nav>
+
+<div class="container py-5">
+
+  <!-- HEADER -->
+  <div class="header-box p-4 mb-5">
+    <div class="d-flex justify-content-between flex-wrap align-items-center">
+
+      <div>
+        <h1>¡Hola, Juan! 👋</h1>
+        <p>Estás en racha, sigue completando misiones para subir de nivel.</p>
+
+        <div class="progress">
+          <div class="progress-bar bg-warning" style="width: 70%"></div>
+        </div>
+
+        <small>1250 / 1800 XP</small>
+      </div>
+
+      <div class="nivel-box mt-3 mt-md-0">
+        Nivel 5
+      </div>
+
+    </div>
+  </div>
+
+  <!-- CONTENIDO -->
+  <div class="row g-4">
+
+    <!-- PERFIL -->
+    <div class="col-lg-4">
+      <div class="card perfil-card text-center p-4">
+
+        <div class="avatar"></div>
+
+        <h3 class="mt-3">Juan Pérez</h3>
+        <p class="text-muted">Grado 11°</p>
+
+        <button class="btn btn-warning btn-lg w-100 mt-3">
+          ✏️ Editar Perfil
+        </button>
+
+      </div>
+    </div>
+
+    <!-- CALENDARIO -->
+    <div class="col-lg-8">
+      <div class="card calendario-card p-4">
+
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <h5>Calendario de racha 📅</h5>
+          <span>Mayo 2025</span>
+        </div>
+
+        <div class="calendar">
+
+          <!-- Días -->
+          <!-- Fila 1 -->
+          <div class="day">28</div>
+          <div class="day">29</div>
+          <div class="day">30</div>
+          <div class="day active">1</div>
+          <div class="day">2</div>
+          <div class="day active">3</div>
+          <div class="day">4</div>
+
+          <!-- Fila 2 -->
+          <div class="day active">5</div>
+          <div class="day active">6</div>
+          <div class="day active">7</div>
+          <div class="day">8</div>
+          <div class="day active">9</div>
+          <div class="day active">10</div>
+          <div class="day">11</div>
+
+          <!-- Fila 3 -->
+          <div class="day">12</div>
+          <div class="day active">13</div>
+          <div class="day">14</div>
+          <div class="day active">15</div>
+          <div class="day">16</div>
+          <div class="day active">17</div>
+          <div class="day">18</div>
+
+          <!-- Fila 4 -->
+          <div class="day">19</div>
+          <div class="day">20</div>
+          <div class="day active">21</div>
+          <div class="day">22</div>
+          <div class="day">23</div>
+          <div class="day active">24</div>
+          <div class="day">25</div>
+
+          <!-- Fila 5 -->
+          <div class="day">26</div>
+          <div class="day">27</div>
+          <div class="day">28</div>
+          <div class="day">29</div>
+          <div class="day">30</div>
+          <div class="day">31</div>
+          <div class="day">1</div>
+
+        </div>
+
+      </div>
+
+      <!-- INSIGNIAS -->
+      <div class="card mt-4 p-4">
+        <h5>Insignias</h5>
+
+        <div class="d-flex gap-3 mt-3 flex-wrap">
+          <div class="badge-box bg-warning">⭐</div>
+          <div class="badge-box bg-success">🏆</div>
+          <div class="badge-box bg-primary">📘</div>
+          <div class="badge-box bg-danger">🔥</div>
+          <div class="badge-box bg-info">🚀</div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
