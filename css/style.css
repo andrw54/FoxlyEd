@@ -1,5 +1,6 @@
 :root {
     --foxly-orange: #d28b4d;
+    --foxly-bg: #ffe7d2;
     --foxly-dark: #2c3e50;
     --bg-light: #f4f7f6;
     --math-blue: #4a90e2;  
@@ -7,7 +8,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color:  #fcdd8e;
+    background-color: var(--foxly-bg);
 }
 
 nav#foxlyNav {
@@ -32,9 +33,9 @@ nav#foxlyNav {
 }
 
 .nav-link  {
-  background-color: #f4e1b6;
+  background-color:var(--foxly-bg);
   text-decoration: none;
-  color: black;
+  color: rgba(218, 141, 26, 0.865);
   border: solid;
   border-radius: 20px;
   padding: 10px 30px;
