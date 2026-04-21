@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logros Duolingo Style</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://jsdelivr.net" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/logros.css">
+
+</head>
+<body>
+
+<div class="container py-5">
+    <h1 class="text-center mb-5 fw-bold">Logros</h1>
+    
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- Logro 1 (Completado) -->
+        <div class="col">
+            <div class="card h-100 achievement-card p-3">
+                <div class="d-flex align-items-center">
+                    <img src="../../imagenes/fuegito.png" width="100" height="100" class="imagen-fuego" alt="Logro">
+                    <div>
+                        <h5 class="card-title fw-bold mb-0">Racha de 100 días</h5>
+                        <p class="text-muted small">Haz 100 lecciones seguidas</p>
+                    </div>
+                </div>
+                <div class="progress mt-3">
+                    <div class="progress-bar bg-success" style="width: 100%"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Logro 2 (En progreso) -->
+        <div class="col">
+            <div class="card h-100 achievement-card p-3">
+                <div class="d-flex align-items-center">
+                    <img src="https://duolingo.com" class="badge-icon me-3" alt="Logro">
+                    <div>
+                        <h5 class="card-title fw-bold mb-0">principiante</h5>
+                        <p class="text-muted small">has 5 lecciones de cada materia</p>
+                    </div>
+                </div>
+                <div class="progress mt-3">
+                    <div class="progress-bar bg-warning" style="width: 60%"></div>
+                </div>
+                <small class="text-end text-muted mt-1">60/100</small>
+            </div>
+        </div>
+
+        <!-- Logro 3 (Bloqueado) -->
+        <div class="col">
+            <div class="card h-100 achievement-card p-3 bg-light">
+                <div class="d-flex align-items-center">
+                    <img src="https://duolingo.com" class="badge-icon me-3" style="opacity: 0.3;" alt="Logro">
+                    <div class="text-locked">
+                        <h5 class="card-title fw-bold mb-0">Campeón</h5>
+                        <p class="small">Llega a la liga Diamante</p>
+                    </div>
+                </div>
+                <div class="progress mt-3">
+                    <div class="progress-bar bg-secondary" style="width: 0%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://jsdelivr.net"></script>
+</body>
+</html>
+</html>
