@@ -1,0 +1,88 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* HEADER */
+.header-box {
+  background: #ffd06b;
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+}
+
+/* NIVEL */
+.nivel-box {
+  background: #fabc75;
+  padding: 15px 25px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+/* PERFIL */
+.perfil-card {
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* AVATAR */
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #f5dfdf;
+  margin: auto;
+}
+
+/* CALENDARIO */
+.calendario-card {
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* GRID CALENDARIO */
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+
+.day {
+  padding: 12px;
+  text-align: center;
+  background: #e4dede;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.day.active {
+  background: #f0a340;
+  color: rgb(255, 255, 255);
+}
+
+/* INSIGNIAS */
+.badge-box {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 213, 98);
+  font-size: 22px;
+}
+
+/* BOTÓN */
+.btn-warning {
+  border-radius: 10px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .header-box {
+    text-align: center;
+  }
+
+  .nivel-box {
+    margin-top: 15px;
+  }
+}
