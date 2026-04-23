@@ -87,7 +87,8 @@ nav#foxlyNav {
 }
 
 .btn-logout {
-    color: #e74c3c; border: 1.5px solid #e74c3c;
+    background-color: #e74c3c;
+    color: #000000; border: 1.5px solid;
     border-radius: 8px; font-weight: 600;
 }
 
