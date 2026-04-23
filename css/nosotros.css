@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color:  #fcdd8e;
+    background-color:  aliceblue;
 }
 
 nav#foxlyNav {
@@ -31,13 +31,15 @@ nav#foxlyNav {
   gap: 20px;
 }
 
-.nav-link  {
-  background-color: #f4e1b6;
+.nav-link {
   text-decoration: none;
-  color: black;
-  border: solid;
   border-radius: 20px;
   padding: 10px 30px;
+  color: #000;
+}
+
+.nav-link:hover {
+  background-color: aliceblue;
 }
 
 section {
