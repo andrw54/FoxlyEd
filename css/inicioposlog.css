@@ -13,12 +13,44 @@ body {
 nav#foxlyNav {
     background: linear-gradient(90deg, #be741c, #f1a13e);
 }
+.text-orange {
+  color: var(--foxly-orange);
+  font-weight: 700;
+}
 
-.text-orange { color: var(--foxly-dark); font-weight: 700; }
+.text-dark {
+  color: var(--foxly-dark);
+  font-weight: 700;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 10px 30px;
+  color: #000;
+}
+
+.nav-link:hover {
+  background-color: aliceblue;
+}
 
 /* Banner */
 .grade-banner {
-    background: linear-gradient(135deg, var(--foxly-dark), #34495e);
+    background: linear-gradient(135deg, #74baff, #3986d2);
     border-radius: 20px;
 }
 
