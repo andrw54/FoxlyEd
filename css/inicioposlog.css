@@ -13,12 +13,44 @@ body {
 nav#foxlyNav {
     background: linear-gradient(90deg, #be741c, #f1a13e);
 }
+.text-orange {
+  color: var(--foxly-orange);
+  font-weight: 700;
+}
 
-.text-orange { color: var(--foxly-dark); font-weight: 700; }
+.text-dark {
+  color: var(--foxly-dark);
+  font-weight: 700;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 10px 30px;
+  color: #000;
+}
+
+.nav-link:hover {
+  background-color: aliceblue;
+}
 
 /* Banner */
 .grade-banner {
-    background: linear-gradient(135deg, var(--foxly-dark), #34495e);
+    background: linear-gradient(135deg, #ffb96d, #c68228);
     border-radius: 20px;
 }
 
@@ -47,8 +79,8 @@ nav#foxlyNav {
 }
 
 /* Colores de materias */
-.bg-mates { background-color: #00d812; }
-.bg-lectura { background-color: #ff1f1f; }
+.bg-mates { background-color:  #ff1f1f; }
+.bg-lectura { background-color: #00d812; }
 .bg-ciencias { background-color: #1042e6; }
 .bg-sociales { background-color: #fffb02; }
 .bg-ingles { background-color: #ce27aa; }
@@ -87,7 +119,8 @@ nav#foxlyNav {
 }
 
 .btn-logout {
-    color: #e74c3c; border: 1.5px solid #e74c3c;
+    background-color: #e74c3c;
+    color: #000000; border: 1.5px solid;
     border-radius: 8px; font-weight: 600;
 }
 

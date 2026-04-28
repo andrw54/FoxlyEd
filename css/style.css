@@ -1,21 +1,28 @@
 :root {
-    --foxly-orange: #d28b4d;
-    --foxly-dark: #2c3e50;
-    --bg-light: #f4f7f6;
-    --math-blue: #4a90e2;  
+  --foxly-orange: #d28b4d;
+  --foxly-dark: #2c3e50;
+  --bg-light: #f4f7f6;
+  --math-blue: #4a90e2;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color:  #fcdd8e;
+  font-family: 'Poppins', sans-serif;
+  background-color: aliceblue;
 }
 
 nav#foxlyNav {
-    background: linear-gradient(90deg, #be741c, #f1a13e);
+  background: linear-gradient(90deg, #be741c, #f1a13e);
 }
 
-.text-orange { color: var(--foxly-orange); font-weight: 700; }
-.text-dark { color: var(--foxly-dark); font-weight: 700; }
+.text-orange {
+  color: var(--foxly-orange);
+  font-weight: 700;
+}
+
+.text-dark {
+  color: var(--foxly-dark);
+  font-weight: 700;
+}
 
 .logo {
   width: 50px;
@@ -31,13 +38,15 @@ nav#foxlyNav {
   gap: 20px;
 }
 
-.nav-link  {
-  background-color: #f4e1b6;
+.nav-link {
   text-decoration: none;
-  color: black;
-  border: solid;
   border-radius: 20px;
   padding: 10px 30px;
+  color: #000;
+}
+
+.nav-link:hover {
+  background-color: aliceblue;
 }
 
 main {
@@ -67,11 +76,12 @@ main {
   transform-style: preserve-3d;
 }
 
-.icon{
+.icon {
   font-size: 30px;
   padding-top: 80%;
 }
-h5{
+
+h5 {
   font-size: 20px;
   font-weight: 500;
   font-style: italic;
@@ -124,4 +134,3 @@ footer {
     height: 180px;
   }
 }
-
