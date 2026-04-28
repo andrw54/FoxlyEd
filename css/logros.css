@@ -3,7 +3,7 @@
             font-family: 'Rounded', sans-serif;
         }
 
-        .row{
+        .row {
             display: flex;
         }
 
@@ -26,24 +26,27 @@
         .progress {
             height: 15px;
             border-radius: 10px;
-            
+
         }
 
         .text-locked {
             color: #afafaf;
         }
+
         .seccion-logros {
             margin: 20px;
             background-color: rgb(245, 215, 116);
         }
+
         .imagen-fuego {
             width: 100px;
             height: 100px;
             border-radius: 50%;
             object-fit: cover;
-            
+
 
         }
+
         .imagen-logro2 {
             width: 100px;
             height: 100px;
@@ -51,12 +54,14 @@
             object-fit: cover;
 
         }
+
         .imagen-logro3 {
             width: 100px;
             height: 100px;
             border-radius: 50%;
             object-fit: cover;
         }
+
         .logo {
             width: 50px;
             height: 50px;
@@ -65,6 +70,9 @@
             border-radius: 50%;
         }
 
-       
-  
-        
+        .cabeza {
+            background-color: #d28b4d;
+        }
+        .cartas {
+            background-color: #ffdcac !important;
+        }
