@@ -50,7 +50,7 @@ nav#foxlyNav {
 
 /* Banner */
 .grade-banner {
-    background: linear-gradient(135deg, #74baff, #3986d2);
+    background: linear-gradient(135deg, #ffb96d, #c68228);
     border-radius: 20px;
 }
 
@@ -79,8 +79,8 @@ nav#foxlyNav {
 }
 
 /* Colores de materias */
-.bg-mates { background-color: #00d812; }
-.bg-lectura { background-color: #ff1f1f; }
+.bg-mates { background-color:  #ff1f1f; }
+.bg-lectura { background-color: #00d812; }
 .bg-ciencias { background-color: #1042e6; }
 .bg-sociales { background-color: #fffb02; }
 .bg-ingles { background-color: #ce27aa; }
