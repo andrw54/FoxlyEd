@@ -49,16 +49,10 @@ nav#foxlyNav {
   background-color: rgb(255, 254, 253);
 }
 
-/* NIVEL */
-.nivel-box {
-  background: #ffcf68;
-  padding: 15px 25px;
-  border-radius: 20px;
-  font-weight: bold;
-}
 
-/* PERFIL */
-.perfil-card {
+/* TARJETAS */
+.avatar-card,
+.form-card {
   border-radius: 20px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
@@ -68,49 +62,25 @@ nav#foxlyNav {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  background: #eeeeee;
+  background: #e0e0e0;
   margin: auto;
+  border: 4px solid #f0a340;
 }
 
-/* CALENDARIO */
-.calendario-card {
-  border-radius: 20px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-}
-
-/* GRID CALENDARIO */
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  gap: 10px;
-}
-
-.day {
-  padding: 12px;
-  text-align: center;
-  background: #e7e6e6;
+/* INPUTS */
+.custom-input {
   border-radius: 10px;
-  font-weight: 500;
+  padding: 10px;
+  border: 1px solid #ddd;
+  transition: 0.3s;
 }
 
-.day.active {
-  background: #f0a340;
-  color: rgb(255, 255, 255);
+.custom-input:focus {
+  border-color: #f0a340;
+  box-shadow: 0 0 0 0.2rem rgba(240,163,64,0.25);
 }
 
-/* INSIGNIAS */
-.badge-box {
-  width: 60px;
-  height: 60px;
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: rgb(255, 213, 98);
-  font-size: 22px;
-}
-
-/* BOTÓN */
+/* BOTONES */
 .btn-warning {
   border-radius: 10px;
 }
@@ -119,9 +89,5 @@ nav#foxlyNav {
 @media (max-width: 768px) {
   .header-box {
     text-align: center;
-  }
-
-  .nivel-box {
-    margin-top: 15px;
   }
 }
