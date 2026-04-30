@@ -54,7 +54,6 @@ nav#foxlyNav {
   box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
 
-/* AVATAR */
 .avatar {
   width: 120px;
   height: 120px;
@@ -64,7 +63,6 @@ nav#foxlyNav {
   border: 4px solid #f0a340;
 }
 
-/* INPUTS */
 .custom-input {
   border-radius: 10px;
   padding: 10px;
@@ -77,12 +75,10 @@ nav#foxlyNav {
   box-shadow: 0 0 0 0.2rem rgba(240,163,64,0.25);
 }
 
-/* BOTONES */
 .btn-warning {
   border-radius: 10px;
 }
 
-/* RESPONSIVE */
 @media (max-width: 768px) {
   .header-box {
     text-align: center;
@@ -95,4 +91,11 @@ nav#foxlyNav {
     border: 1.5px solid;
     border-radius: 8px;
     font-weight: 600;
+}
+
+footer {
+  background: linear-gradient(90deg, #be741c, #e09130);
+  border-top: 3px solid #000;
+  padding-bottom: 20px;
+  color: white;
 }

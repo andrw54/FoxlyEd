@@ -118,10 +118,10 @@ nav#foxlyNav {
 .punto.actual {
     background-color: var(--naraja-foxly);
     box-shadow: 0 0 8px var(--naraja-foxly);
-    animation: pulse 1.5s infinite;
+    animation: pálpito 1.5s infinite;
 }
 
-@keyframes pulse {
+@keyframes pálpito {
     0% {
         transform: scale(1);
     }
@@ -157,68 +157,10 @@ nav#foxlyNav {
     font-weight: 600;
 }
 
-/* Estilos de la página de materia 
-.materia-header {
-    background: linear-gradient(135deg, var(--math-blue) 0%, #357abd 100%);
-    border-radius: 20px;
+footer {
+  background: linear-gradient(90deg, #be741c, #e09130);
+  border-top: 3px solid #000;
+  padding-bottom: 20px;
+  color: white;
 }
 
-.icon-circle-lg {
-    width: 80px;
-    height: 80px;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2.5rem;
-    font-weight: bold;
-    border: 2px solid rgba(255, 255, 255, 0.4);
-}
-
-.content-box {
-    background-color: #ffffff;
-    border-radius: 20px;
-}
-
-.card-reto {
-    border-radius: 20px;
-    background-color: #ffffff;
-    border-top: 5px solid var(--foxly-orange) !important;
-}
-
-.pregunta-box {
-    background-color: #f8f9fa;
-    border-radius: 12px;
-    border: 1px dashed #ddd;
-}
-
-Botón de acción (reutilizado) 
-.btn-action-game {
-    background-color: var(--foxly-dark);
-    color: white;
-    border-radius: 10px;
-    font-weight: 600;
-    transition: 0.3s;
-    border: none;
-}
-
-.btn-action-game:hover {
-    background-color: var(--foxly-orange);
-    color: white;
-}
-
-/* Responsivo: Ajustes para móvil 
-@media (max-width: 768px) {
-    .materia-header {
-        text-align: center;
-        padding: 30px 20px;
-    }
-    .materia-header .d-flex {
-        flex-direction: column;
-    }
-    .icon-circle-lg {
-        margin: 0 auto 15px auto !important;
-    }
-}
-    */
