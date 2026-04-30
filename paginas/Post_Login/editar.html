@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,114 +10,104 @@
 </head>
 
 <body>
-<header>
-    <nav class="navbar navbar-expand-lg sticky-top shadow-sm" id="foxlyNav">
-      <div class="container">
-        <a class="navbar-brand d-flex align-items-center" href="./index.html">
-          <img src="../../imagenes/Foxly.jpg" alt="Logo" width="40" class="me-2 logo">
-          <span class="brand-text text-dark">FOXLY</span>
-        </a>
-        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto align-items-center">
-            <li class="nav-item"><a class="nav-link px-3" href="./paginas/nosotros.html">Nosotros</a></li>
-            <li class="nav-item"><a class="nav-link px-3" href="./paginas/Formulario.html">Iniciar Sección</a></li>
-          </ul>
-        </div>
+  <nav class="navbar navbar-expand-lg sticky-top shadow-sm" id="foxlyNav">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="./menú.html">
+        <img src="../../imagenes/Foxly.jpg" alt="Logo" width="40" class="me-2 logo">
+        <span class="text-dark">FOXLY</span>
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item"><a class="nav-link px-3" href="./logros.html">Logros</a></li>
+          <li class="nav-item"><a class="nav-link px-3" href="./perfil.html">Mi Perfil</a></li>
+          <li class="nav-item ms-lg-3">
+            <a href="../../index.html" class="btn cerrar-secion">Cerrar Sesión</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-<div class="container py-5">
+    </div>
+  </nav>
+  <main class="container py-5">
 
-  <div class="header-box p-4 mb-5">
-    <h2>Editar Perfil ✏️</h2>
-    <p>Personaliza tu información y sigue avanzando 🚀</p>
+    <div class="header-box p-4 mb-5">
+      <h2>Editar Perfil ✏️</h2>
+      <p>Personaliza tu información y sigue avanzando 🚀</p>
 
-    <div class="progress">
-      <div class="progress-bar bg-warning" style="width: 60%"></div>
+      <div class="progress">
+        <div class="progress-bar bg-warning" style="width: 60%"></div>
+      </div>
+
+      <small>Perfil completado al 60%</small>
     </div>
 
-    <small>Perfil completado al 60%</small>
-  </div>
+    <div class="row g-4">
 
-  <div class="row g-4">
+      <div class="col-lg-4">
+        <div class="card avatar-card text-center p-4">
 
-    <div class="col-lg-4">
-      <div class="card avatar-card text-center p-4">
-
-        <div class="avatar mb-3">
+          <div class="avatar mb-3">
             <img src="" alt="">
+          </div>
+
+          <button class="btn btn-outline-warning btn-sm">
+            Cambiar Foto
+          </button>
+
         </div>
-
-        <button class="btn btn-outline-warning btn-sm">
-          Cambiar Foto
-        </button>
-
       </div>
+
+      <div class="col-lg-8">
+        <div class="card form-card p-4">
+
+          <form>
+
+            <div class="row g-3">
+
+              <div class="col-md-6">
+                <label class="form-label">Nombre</label>
+                <input type="text" class="form-control custom-input" placeholder="Juan">
+              </div>
+
+              <div class="col-md-6">
+                <label class="form-label">Apellido</label>
+                <input type="text" class="form-control custom-input" placeholder="Pérez">
+              </div>
+
+              <div class="col-md-12">
+                <label class="form-label">Correo</label>
+                <input type="email" class="form-control custom-input" placeholder="correo@email.com">
+              </div>
+
+              <div class="col-12">
+                <label class="form-label">Contraseña</label>
+                <input type="password" class="form-control custom-input" placeholder="12345678">
+              </div>
+
+            </div>
+
+            <div class="d-flex justify-content-end mt-4 gap-2">
+              <button type="reset" class="btn btn-outline-secondary">
+                Cancelar
+              </button>
+
+              <button type="submit" class="btn btn-warning">
+                Guardar Cambios 
+              </button>
+
+            </div>
+
+          </form>
+
+        </div>
+      </div>
+
     </div>
 
-    <div class="col-lg-8">
-      <div class="card form-card p-4">
-
-        <form>
-
-          <div class="row g-3">
-
-            <div class="col-md-6">
-              <label class="form-label">Nombre</label>
-              <input type="text" class="form-control custom-input" placeholder="Juan">
-            </div>
-
-            <div class="col-md-6">
-              <label class="form-label">Apellido</label>
-              <input type="text" class="form-control custom-input" placeholder="Pérez">
-            </div>
-
-            <div class="col-md-6">
-              <label class="form-label">Correo</label>
-              <input type="email" class="form-control custom-input" placeholder="correo@email.com">
-            </div>
-
-            <div class="col-md-6">
-              <label class="form-label">Grado</label>
-              <select class="form-select custom-input">
-                <option>Seleccionar</option>
-                <option>6°</option>
-                <option>7°</option>
-                <option>8°</option>
-                <option>9°</option>
-                <option>10°</option>
-                <option selected>11°</option>
-              </select>
-            </div>
-
-            <div class="col-12">
-              <label class="form-label">Contraseña</label>
-              <input type="password" class="form-control custom-input" placeholder="********">
-            </div>
-
-          </div>
-
-          <div class="d-flex justify-content-end mt-4 gap-2">
-            <button type="reset" class="btn btn-outline-secondary">
-              Cancelar
-            </button>
-
-            <button type="submit" class="btn btn-warning">
-              Guardar Cambios 💾
-            </button>
-            
-          </div>
-
-        </form>
-
-      </div>
-    </div>
-
-  </div>
-
-</div>
+  </main>
 
 </body>
+
 </html>

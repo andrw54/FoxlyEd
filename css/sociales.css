@@ -1,6 +1,6 @@
 :root {
     --foxly-orange: #fa9908;
-    --foxly-gradient: linear-gradient(135deg, #f1d012 0%, #fcef7a 100%);
+    --foxly-gradient: linear-gradient(135deg, #220bf5 0%, #0066ff 100% );
     --foxly-soft-bg: #fff5ee;
     --foxly-dark: #1a1a1a;
 }
@@ -19,7 +19,6 @@ body {
     position: relative;
     overflow: hidden;
 }
-
 
 .recurso-item {
     border: none;

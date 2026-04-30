@@ -1,13 +1,13 @@
 :root {
-  --foxly-orange: #d28b4d;
-  --foxly-dark: #2c3e50;
-  --bg-light: #f4f7f6;
+  --naraja-foxly: #d28b4d;
+  --negro-foxly: #2c3e50;
+  --fondo: #f4f7f6;
   --math-blue: #4a90e2;
 }
 
 body {
-  background-color: #fffdfd;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--fondo);
 }
 
 nav#foxlyNav {
@@ -15,12 +15,11 @@ nav#foxlyNav {
 }
 
 .text-orange {
-  color: var(--foxly-orange);
+  color: var(--naranja-foxly);
   font-weight: 700;
 }
 
 .text-dark {
-  color: var(--foxly-dark);
   font-weight: 700;
 }
 
@@ -42,14 +41,13 @@ nav#foxlyNav {
   text-decoration: none;
   border-radius: 20px;
   padding: 10px 30px;
-  color: #131313;
+  color: #000;
 }
 
 .nav-link:hover {
-  background-color: rgb(255, 254, 253);
+  background-color: aliceblue;
 }
 
-/* NIVEL */
 .nivel-box {
   background: #ffcf68;
   padding: 15px 25px;
@@ -60,7 +58,7 @@ nav#foxlyNav {
 /* PERFIL */
 .perfil-card {
   border-radius: 20px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
 
 /* AVATAR */
@@ -75,7 +73,7 @@ nav#foxlyNav {
 /* CALENDARIO */
 .calendario-card {
   border-radius: 20px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
 
 /* GRID CALENDARIO */
@@ -124,4 +122,12 @@ nav#foxlyNav {
   .nivel-box {
     margin-top: 15px;
   }
+}
+
+.cerrar-secion {
+  background-color: #e74c3c;
+  color: #000000;
+  border: 1.5px solid;
+  border-radius: 8px;
+  font-weight: 600;
 }
