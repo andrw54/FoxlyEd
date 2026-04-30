@@ -1,6 +1,6 @@
 :root {
     --foxly-orange: #f37021;
-    --foxly-gradient: linear-gradient(135deg, #f37021 0%, #ff8c42 100%);
+    --foxly-gradient: linear-gradient(135deg, #075c0e 0%, #008b0c 100%);
     --foxly-soft-bg: #fff5ee;
     --foxly-dark: #1a1a1a;
 }
@@ -21,17 +21,6 @@ body {
     overflow: hidden;
 }
 
-.materia-header::after {
-    content: "";
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
-    top: -100px;
-    right: -50px;
-}
-
 .recurso-item {
     border: none;
     border-radius: 20px;
@@ -42,7 +31,7 @@ body {
 
 .recurso-item:hover {
     transform: scale(1.03) translateY(-5px);
-    box-shadow: 0 15px 30px rgba(243, 112, 33, 0.15) !important;
+    box-shadow: 0 15px 30px rgba(243, 112, 33, 0.15);
 }
 
 .file-icon {
