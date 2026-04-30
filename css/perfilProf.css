@@ -1,0 +1,139 @@
+:root {
+  --naraja-foxly: #d28b4d;
+  --negro-foxly: #2c3e50;
+  --fondo: #f4f7f6;
+  --math-blue: #4a90e2;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--fondo);
+}
+
+nav#foxlyNav {
+  background: linear-gradient(90deg, #be741c, #f1a13e);
+}
+
+.text-orange {
+  color: var(--naranja-foxly);
+  font-weight: 700;
+}
+
+.text-dark {
+  font-weight: 700;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 10px 30px;
+  color: #000;
+}
+
+.nav-link:hover {
+  background-color: aliceblue;
+}
+
+
+
+:root {
+  --primary-color: #0d6efd;
+  --success-color: #198754;
+  --bg-muted: #f8f9fa;
+  --border-color: #dee2e6;
+}
+
+.calendar-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  max-width: 400px; /* Tamaño ideal para móvil y desktop */
+  margin: auto;
+}
+
+.calendar-header {
+  padding: 20px;
+  background: var(--bg-muted);
+  text-align: center;
+}
+
+/* Contenedores Flex */
+.weekdays, .calendar-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.weekdays div, .day {
+  /* Dividimos el 100% entre 7 columnas */
+  flex: 0 0 calc(100% / 7); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1 / 1; /* Mantiene los cuadros perfectamente cuadrados */
+  font-size: 0.9rem;
+}
+
+.weekdays {
+  font-weight: bold;
+  color: #6c757d;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.day {
+  border: 1px solid transparent;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.2s;
+}
+
+/* Estados de la racha */
+.day.completed {
+  background-color: #d1e7dd;
+  color: #0f5132;
+  font-weight: bold;
+}
+
+.day.active {
+  background-color: var(--success-color);
+  color: white;
+  border-radius: 50%; /* Opcional: para resaltar el día actual */
+  transform: scale(0.85);
+  box-shadow: 0 4px 10px rgba(25, 135, 84, 0.3);
+}
+
+/* Hover y Feedback */
+.day:not(.empty):hover {
+  background-color: var(--bg-muted);
+  border-color: var(--border-color);
+}
+
+
+
+.cerrar-secion {
+    background-color: #e74c3c;
+    color: #000000;
+    border: 1.5px solid;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+footer {
+  background: linear-gradient(90deg, #be741c, #e09130);
+  border-top: 3px solid #000;
+  padding-bottom: 20px;
+  color: white;
+}
