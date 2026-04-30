@@ -1,17 +1,55 @@
+:root {
+  --naraja-foxly: #d28b4d;
+  --negro-foxly: #2c3e50;
+  --fondo: #f4f7f6;
+  --math-blue: #4a90e2;
+}
+
 body {
-  background-color: #ffffff;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--fondo);
 }
 
-.header-box {
-  background: #ffd06b;
-  color: rgb(0, 0, 0);
+nav#foxlyNav {
+  background: linear-gradient(90deg, #be741c, #f1a13e);
+}
+
+.text-orange {
+  color: var(--naranja-foxly);
+  font-weight: 700;
+}
+
+.text-dark {
+  font-weight: 700;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
   border-radius: 20px;
+  padding: 10px 30px;
+  color: #000;
 }
 
-/* NIVEL */
+.nav-link:hover {
+  background-color: aliceblue;
+}
+
 .nivel-box {
-  background: #fabc75;
+  background: #ffcf68;
   padding: 15px 25px;
   border-radius: 20px;
   font-weight: bold;
@@ -20,7 +58,7 @@ body {
 /* PERFIL */
 .perfil-card {
   border-radius: 20px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
 
 /* AVATAR */
@@ -28,14 +66,14 @@ body {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  background: #f5dfdf;
+  background: #eeeeee;
   margin: auto;
 }
 
 /* CALENDARIO */
 .calendario-card {
   border-radius: 20px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
 
 /* GRID CALENDARIO */
@@ -48,7 +86,7 @@ body {
 .day {
   padding: 12px;
   text-align: center;
-  background: #e4dede;
+  background: #e7e6e6;
   border-radius: 10px;
   font-weight: 500;
 }
@@ -84,4 +122,12 @@ body {
   .nivel-box {
     margin-top: 15px;
   }
+}
+
+.cerrar-secion {
+  background-color: #e74c3c;
+  color: #000000;
+  border: 1.5px solid;
+  border-radius: 8px;
+  font-weight: 600;
 }

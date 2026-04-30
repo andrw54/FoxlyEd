@@ -1,0 +1,98 @@
+:root {
+    --naraja-foxly: #d28b4d;
+    --negro-foxly: #2c3e50;
+    --fondo: #f4f7f6;
+    --math-blue: #4a90e2;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--fondo);
+}
+
+nav#foxlyNav {
+    background: linear-gradient(90deg, #be741c, #f1a13e);
+}
+
+.text-orange {
+    color: var(--naranja-foxly);
+    font-weight: 700;
+}
+
+.text-dark {
+    font-weight: 700;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    color: #000;
+}
+
+.nav-link:hover {
+    background-color: aliceblue;
+}
+
+.avatar-card,
+.form-card {
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* AVATAR */
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #e0e0e0;
+  margin: auto;
+  border: 4px solid #f0a340;
+}
+
+/* INPUTS */
+.custom-input {
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  transition: 0.3s;
+}
+
+.custom-input:focus {
+  border-color: #f0a340;
+  box-shadow: 0 0 0 0.2rem rgba(240,163,64,0.25);
+}
+
+/* BOTONES */
+.btn-warning {
+  border-radius: 10px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .header-box {
+    text-align: center;
+  }
+}
+
+.cerrar-secion {
+    background-color: #e74c3c;
+    color: #000000;
+    border: 1.5px solid;
+    border-radius: 8px;
+    font-weight: 600;
+}
