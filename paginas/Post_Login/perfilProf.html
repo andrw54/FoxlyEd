@@ -7,6 +7,8 @@
   <title>Document</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+
   <link rel="stylesheet" href="../../css/perfilProf.css">
 </head>
 
@@ -15,7 +17,7 @@
     <div class="container">
       <a class="navbar-brand d-flex align-items-center" href="./menú.html">
         <img src="../../imagenes/Foxly.jpg" alt="Logo" width="40" class="me-2 logo">
-        <span class="text-dark">FOXLY</span>
+        <span class="texto-negro">FOXLY</span>
       </a>
       <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
@@ -31,70 +33,63 @@
       </div>
     </div>
   </nav>
+  <div class="container py-5">
+    <h2 class="text-center mb-5 fw-bold text-secondary">Profesores</h2>
 
-
-<main>
-  <div class="container mt-5">
-  <div class="calendar-card shadow">
-    <div class="calendar-header">
-      <h4>Octubre 2023</h4>
-      <div class="streak-info">Racha actual: <strong>15 días</strong> 🔥</div>
-    </div>
-
-    <!-- Cabecera de días de la semana -->
-    <div class="weekdays">
-      <div>Lun</div><div>Mar</div><div>Mié</div><div>Jue</div><div>Vie</div><div>Sáb</div><div>Dom</div>
-    </div>
-
-    <!-- Cuadrícula de días -->
-    <div class="calendar-grid">
-      <!-- Días vacíos para ajustar el inicio del mes (ej: si el mes empieza jueves) -->
-      <div class="day empty"></div>
-      <div class="day empty"></div>
-      <div class="day empty"></div>
-      
-      <!-- Días del mes -->
-      <div class="day">1</div>
-      <div class="day completed">2</div>
-      <div class="day completed">3</div>
-      <div class="day active">4</div>
-      <div class="day">5</div>
-      <div class="day">6</div>
-      <div class="day completed">7</div>
-      <div class="day completed">8</div>
-      <div class="day active">9</div>
-      <div class="day">10</div>
-      <div class="day">11</div>
-      <div class="day completed">12</div>
-      <div class="day completed">13</div>
-      <div class="day active">14</div>
-      <div class="day">15</div>
-      <div class="day">16</div>
-      <div class="day completed">17</div>
-      <div class="day completed">18</div>
-      <div class="day active">19</div>
-      <div class="day">20</div>
-      <div class="day">21</div>
-      <div class="day completed">22</div>
-      <div class="day completed">23</div>
-      <div class="day active">24</div>
-      <div class="day">25</div>
-      <div class="day">26</div>
-      <div class="day completed">27</div>
-      <div class="day completed">28</div>
-      <div class="day active">29</div>
-      <div class="day">30</div>
-      <div class="day">31</div>      
+    <div class="row g-4">
+      <div class="col-12 col-md-6 col-lg-4">
+        <article class="teacher-card h-100 shadow-sm border-0 card">
+          <div class="teacher-image-container">
+            <img src="https://unsplash.com" class="card-img-top teacher-img" alt="Foto de Dra. Elena Rodríguez">
+          </div>
+          <div class="card-body d-flex flex-column text-center">
+            <span class="badge bg-primary-subtle text-primary mb-2 align-self-center px-3">Matemáticas</span>
+            <h5 class="card-title fw-bold">Dra. Elena Rodríguez</h5>
+            <p class="card-text text-muted small">Especialista en Cálculo Diferencial con más de 10 años de
+              experiencia académica en investigación de fractales.</p>
+            <div class="mt-auto pt-3 border-top">
+              <p class="mb-0 text-secondary small fw-medium">ID: PROF-2024-01</p>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <article class="teacher-card h-100 shadow-sm border-0 card">
+          <div class="teacher-image-container">
+            <img src="https://unsplash.com" class="card-img-top teacher-img" alt="Foto de Prof. Marcos Julián">
+          </div>
+          <div class="card-body d-flex flex-column text-center">
+            <span class="badge bg-success-subtle text-success mb-2 align-self-center px-3">Sociales</span>
+            <h5 class="card-title fw-bold">Prof. Marcos Julián</h5>
+            <p class="card-text text-muted small">Doctor en Historia Contemporánea. Apasionado por la narrativa
+              histórica y el análisis geopolítico regional.</p>
+            <div class="mt-auto pt-3 border-top">
+              <p class="mb-0 text-secondary small fw-medium">ID: PROF-2024-05</p>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <article class="teacher-card h-100 shadow-sm border-0 card">
+          <div class="teacher-image-container">
+            <img src="https://unsplash.com" class="card-img-top teacher-img" alt="Foto de Ing. Sofía Castro">
+          </div>
+          <div class="card-body d-flex flex-column text-center">
+            <span class="badge bg-info-subtle text-info mb-2 align-self-center px-3">Ingles</span>
+            <h5 class="card-title fw-bold">prof. Arlexon quiceno</h5>
+            <p class="card-text text-muted small">Desarrolladora Senior Fullstack. Enfocada en enseñar arquitecturas
+              limpias y desarrollo ágil de software.</p>
+            <div class="mt-auto pt-3 border-top">
+              <p class="mb-0 text-secondary small fw-medium">ID: PROF-2024-09</p>
+            </div>
+          </div>
+        </article>
+      </div>
     </div>
   </div>
-</div>
-</main>
-
   <footer class="footer bg-white py-4 mt-5 border-top text-center">
     <p class="text-muted mb-0">© 2026 Foxly Academy - Tu futuro empieza con lo que aprendes hoy.</p>
   </footer>
-
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
