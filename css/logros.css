@@ -5,10 +5,6 @@
     --math-blue: #4a90e2;
 }
 
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: var(--fondo);
-}
 
 nav#foxlyNav {
     background: linear-gradient(90deg, #be741c, #f1a13e);
@@ -106,3 +102,25 @@ nav#foxlyNav {
 .bg-barra {
     background-color: #07d800 !important;
 }   
+
+footer {
+  background: linear-gradient(90deg, #be741c, #e09130);
+  padding: 10px;
+  color: white;
+}
+
+html{
+
+  height: 100%;
+  margin: 0; 
+}
+
+body {
+  display: flex;  
+  flex-direction: column;
+  min-height: 100vh;
+}
+main
+{
+  flex: 1;
+}
