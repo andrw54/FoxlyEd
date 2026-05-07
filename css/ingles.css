@@ -1,6 +1,6 @@
 :root {
     --foxly-orange: #fa9908;
-    --foxly-gradient: linear-gradient(135deg, #c211ee 0%, #bb54ff 100%);
+    --Encabezado: linear-gradient(135deg, #c211ee 0%, #bb54ff 100%);
     --foxly-soft-bg: #fff5ee;
     --foxly-dark: #1a1a1a;
 }
@@ -12,7 +12,7 @@ body {
 }
 
 .materia-header {
-    background: var(--foxly-gradient);
+    background: var(--Encabezado);
     border-radius: 0 0 40px 40px;
     padding: 80px 0;
     color: white;

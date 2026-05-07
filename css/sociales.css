@@ -30,7 +30,7 @@ body {
 
 .recurso-item:hover {
     transform: scale(1.03) translateY(-5px);
-    box-shadow: 0 15px 30px rgba(243, 112, 33, 0.15) !important;
+    box-shadow: 0 15px 30px rgba(243, 112, 33, 0.15);
 }
 
 .file-icon {

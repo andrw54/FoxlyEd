@@ -94,7 +94,22 @@ main {
 
 footer {
     background: linear-gradient(90deg, #be741c, #e09130);
-    border-top: 3px solid #000;
-    padding-bottom: 20px;
+    padding: 10px;
     color: white;
+}
+
+html{
+
+  height: 100%;
+  margin: 0; 
+}
+
+body {
+  display: flex;  
+  flex-direction: column;
+  min-height: 100vh;
+}
+main
+{
+  flex: 1;
 }
