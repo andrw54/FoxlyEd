@@ -102,11 +102,9 @@ nav#foxlyNav {
   color: rgb(255, 213, 98);
   font-size: 22px;
 }
-
 .btn-warning {
   border-radius: 10px;
 }
-
 @media (max-width: 768px) {
   .header-box {
     text-align: center;
@@ -116,7 +114,6 @@ nav#foxlyNav {
     margin-top: 15px;
   }
 }
-
 .cerrar-secion {
   background-color: #e74c3c;
   color: #000000;
@@ -124,7 +121,6 @@ nav#foxlyNav {
   border-radius: 8px;
   font-weight: 600;
 }
-
 footer {
   background: linear-gradient(90deg, #be741c, #e09130);
   border-top: 3px solid #000;
