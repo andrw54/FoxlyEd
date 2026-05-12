@@ -77,5 +77,11 @@ body {
   text-decoration: none;
   border-radius: 20px;
   padding: 10px 30px;
-  color: #000;
+  color: #000000;
+}
+.botoncolor {
+    background-color: #f0f2f5;
+    border-radius: 20px;
+    padding: 0px 0px;
+
 }
