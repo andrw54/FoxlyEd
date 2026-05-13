@@ -1,5 +1,5 @@
 :root {
-    --naraja-foxly: #d28b4d;
+    --naranja-foxly: #d28b4d;
     --negro-foxly: #2c3e50;
     --fondo: #f4f7f6;
     --math-blue: #4a90e2;
@@ -31,11 +31,6 @@ nav#foxlyNav {
     border-radius: 50%;
 }
 
-.links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
 
 .nav-link {
     text-decoration: none;
@@ -77,10 +72,6 @@ nav#foxlyNav {
 
 .btn-warning {
   border-radius: 10px;
-}
-
-.row {
-    padding: 0px 100px;
 }
 
 @media (max-width: 768px) {
