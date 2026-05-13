@@ -7,7 +7,7 @@
 
 body {
     background-color: #f0f2f5;
-    background-image: #208b00;
+    background-image: #8b0000;
     background-size: 20px 20px;
     font-family: 'Poppins', sans-serif;
 }
@@ -26,12 +26,12 @@ body {
     border-radius: 20px;
     background: rgba(255, 255, 255, 0.9);
     backdrop-filter: blur(10px);
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: all 0.4s;
 }
 
 .recurso-item:hover {
     transform: scale(1.03) translateY(-5px);
-    box-shadow: 0 15px 30px rgba(243, 112, 33, 0.15);
+    box-shadow: 0 15px 30px rgba(33, 243, 54, 0.15);
 }
 
 .file-icon {
@@ -52,7 +52,7 @@ body {
     padding: 10px 25px;
     font-weight: 600;
     color: white;
-    box-shadow: 0 4px 15px rgba(243, 112, 33, 0.3);
+    box-shadow: 0 4px 15px rgba(243, 33, 33, 0.3);
 }
 
 .profe-card {
@@ -70,12 +70,18 @@ body {
     height: 90px;
     border: 5px solid white;
     margin-top: -45px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px rgba(255, 51, 51, 0.185);
 }
 
 .devolver {
   text-decoration: none;
   border-radius: 20px;
   padding: 10px 30px;
-  color: #000;
+  color: #000000;
+}
+.botoncolor {
+    background-color: #f0f2f5;
+    border-radius: 20px;
+    padding: 0px 0px;
+
 }
