@@ -71,18 +71,23 @@ nav#foxlyNav {
 
 .calendar {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  gap: 10px;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 8px;
+  width: 100%;
 }
 
+
 .day {
-  padding: 12px;
-  text-align: center;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: #e7e6e6;
   border-radius: 10px;
   font-weight: 500;
+  font-size: 14px;
+  min-width: 0;
 }
-
 .day.active {
   background: #f0a340;
   color: rgb(255, 255, 255);
