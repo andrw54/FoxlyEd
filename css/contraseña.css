@@ -1,0 +1,34 @@
+body {
+    background-color: #db8539;
+    color: azure;
+}
+
+.card {
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 70px;
+}
+
+.titulos {
+    text-align: center;
+    margin-block: 35px;
+    margin: 50px;
+}
+
+.longitud {
+   
+}
+
+form.card {
+    background-color: #db8539;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 0%;
+    box-shadow: none;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 80%;
+    }
+}
