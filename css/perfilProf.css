@@ -10,7 +10,7 @@ body {
 }
 
 nav#foxlyNav {
-  background: linear-gradient(90deg, #be741c, #f1a13e);
+ background: linear-gradient(90deg, #be741c, #f1a13e);
 }
 
 .texto-naranja {
@@ -92,4 +92,23 @@ body {
 main
 {
   flex: 1;
+}
+
+.colorm {
+  background-color:#fa0d0d;
+}
+.colors {
+  background-color:#2e15eb;
+}
+.colori {
+  background-color:#a60cb7;
+}
+.colorf {
+  background-color:#20e74b;
+}
+.colorb {
+  background-color:#20e74b;
+}
+.color_text {
+  color: #ffffff !important;
 }
