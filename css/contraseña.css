@@ -1,22 +1,26 @@
 body {
     background-color: #db8539;
     color: azure;
+    padding: 20px;
 }
 
 .card {
+    width: 100%;
+    max-width: 500px;
     margin: 0 auto;
-    width: 50%;
-    margin-bottom: 70px;
 }
 
 .titulos {
     text-align: center;
-    margin-block: 35px;
-    margin: 50px;
+    margin: 35px 20px;
 }
 
 .longitud {
-   
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
 }
 
 form.card {
@@ -29,6 +33,14 @@ form.card {
 
 @media (max-width: 768px) {
     .card {
-        width: 80%;
+        width: 100%;
     }
+
+    .longitud {
+        width: 100%;
+    }
+}
+
+.boton{
+    
 }
