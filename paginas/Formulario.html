@@ -37,22 +37,22 @@
     </section>
     <div class="card">
       <div class="card-body">
-        <form id="formulario">
+        <form id="formulario" action="enviar">
           <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
-            <input type="email" placeholder="julian123@gmail.com" class="form-control" id="exampleInputEmail1"
+            <label for="email" class="form-label">Correo Electrónico</label>
+            <input type="email" placeholder="julian123@gmail.com" class="form-control" id="email"
               aria-describedby="emailHelp" required>
           </div>
           <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-            <input type="password" placeholder="12345678" class="form-control" id="exampleInputPassword1" required>
+            <label for="password" class="form-label">Contraseña</label>
+            <input type="password" placeholder="12345678" class="form-control" id="password" required>
           </div>
           <div class="mb-3 form-check">
             <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
             <label class="form-check-label" for="exampleCheck1"> ¿Perteces a la Institución educativa republica de
               honduras?</label>
           </div>
-          <a href="./Post_Login/menú.html" type="button" class="btn btn-dark">Entrar</a> <br><br>
+          <button type="submit" class="btn btn-dark">Entrar</a> <br><br>
           <a href="./contraseña.html" class="olvi">¿Olvidaste tu contraseña?</a>
         </form>
       </div>
@@ -61,6 +61,7 @@
   <footer class=" py-4 mt-5 border-top text-center">
     <p class="text-muted mb-0">© 2026 Foxly Academy - Tu futuro empieza con lo que aprendes hoy.</p>
   </footer>
+  <script src="../JS/inicioSesión.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
