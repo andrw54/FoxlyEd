@@ -1,15 +1,54 @@
 //Nunca Trabajar con Var. Trabajar con let
-const user = ["user@gmail.com", "123admin"]
-let formul = document.getElementById("formulario");
-formul.addEventListener("submit", function (event) {
-    event.preventDefault();
-    console.log("no se recargo", formulario);
-    let email = document.getElementById("email").value;
-    console.log("email", email);
-    let pasword = document.getElementById("pasword").value;
-    console.log("email", email);
+const user = [
+    {
+        "email": "admin@admin.com",
+        "password": "admin123",
+        "usuario": "Admin"
+    },
+    {
+        "email": "estu@estu.com",
+        "password": "estudent123",
+        "usuario": "Estudiante"
+    },
+    {
+        "email": "prof@prof.com",
+        "password": "profe123",
+        "usuario": "Profesor"
+    }
+]
+function inicioSeción(email, password) {
+    let usuarioEncontrado
+    for (let index = 0; index < user.length; index++) {
+        const element = user[index];
+        if (element.email === email && element.password === password) {
+            usuarioEncontrado = element;
+            break;
+        }
+        alert("no encontrado");
+    }
+    usuarioEncontrado = user.find(elemento => elemento.email === email && elemento.password === password)
+    for (const element of user) {
+        if (element.email === email & element.password === password) {
+            usuarioEncontrado = element;
+            break;
+        }
+    }
+    console.log(usuarioEncontrado);
+    if (usuarioEncontrado) {
+        sessionStorage.setItem("usuario", usuarioEncontrado.user);
+        alert("Encontrado")
+    } else {
+        alert("No encontrado")
+    }
+}
+const formulario = document.getElementById("formulario");
 
-    if (email === user[0] && pasword === user[1]) {
+formulario.addEventListener("submit", function (event) {
+    event.preventDefault();
+    let email = document.getElementById("email").value;
+    let pasword = document.getElementById("pasword").value;
+
+    if (user.email === email[0] && user.pasword === pasword[1]) {
         console.log("usuario si existe");
 
     } else {
