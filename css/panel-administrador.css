@@ -1,0 +1,204 @@
+/* Reset básico de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f0f7ff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #d9822b;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.logo img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* Layout Principal */
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+/* Sección de Títulos */
+.header-text {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.header-text h1 {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: bold;
+    color: #0b1a30;
+    margin-bottom: 8px;
+}
+
+.header-text p {
+    font-size: 13px;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+/* Estructura de Tarjetas */
+.cards-container {
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Tarjetas individuales */
+.card {
+    background-color: #ffffff;
+    border: 1.5px solid #000000;
+    border-radius: 12px;
+    width: 235px;
+    height: 250px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+}
+
+/* Tarjeta Negra Especial */
+.card-dark {
+    background-color: #000000;
+    color: #ffffff;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+}
+
+.card-dark p {
+    font-size: 13px;
+    line-height: 1.4;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+.btn-entrar {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    background-color: #d9822b;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
+
+.footer p {
+    color: #000000;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.nav-link {
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 10px 30px;
+  color: #000;
+}
+.caja-materia {
+    background-color: #ffffff;
+    border: 1.5px solid #000000;
+    border-radius: 12px;
+    width: 260px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.boton-naranja {
+    background-color: #d9822b; /* Mismo color naranja de tu barra superior */
+    color: #ffffff;            /* Texto en color blanco para buen contraste */
+    border: none;              /* Elimina el borde por defecto del navegador */
+    padding: 8px 18px;         /* Espaciado interno (alto y ancho) */
+    border-radius: 20px;       /* Bordes redondeados */
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;           /* Cambia el puntero al pasar el mouse */
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
